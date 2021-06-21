@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+Solution45 *-- SwapWords
+class Solution45 {
+String outputName
++getInput(String prompt)
+}
+
+class SwapWords{
+ArrayList<String> input
+int counter
++readInput()
++comparator(ArrayList<String> input, BufferedReader br)
++getOutput(ArrayList<String> input, String outputName)
+}
+
+@enduml

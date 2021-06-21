@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Solution44 *-- ProductSearch
+
+class Solution44 {
+
+}
+
+class ProductSearch{
+boolean found
+String productInput
+
++getDirectory()
++getInput(String s)
++seeker()
++getProduct(JsonArray jsonArrayofProducts, String productInput, boolean found)
++printOutput(String name, String price, String quantity)
+}
+
+@enduml
